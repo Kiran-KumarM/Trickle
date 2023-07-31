@@ -34,10 +34,10 @@ const Project = g.model('Project', {
 //   secret:  g.env('NEXTAUTH_SECRET')
 // })
 
-// export default config({
-//   schema: g,
-//   auth: {
-//     providers: [jwt],
-//     rules: (rules) => rules.private()
-//   },
-// })
+export default config({
+  schema: g,
+  // auth: {
+  //   providers: [jwt],
+  //   rules: (rules) => rules.private()
+  // },
+})
